@@ -3,20 +3,13 @@
   background: #644646;
 }
 
-#preloader_preload {
-  display: block !important;
-  position: fixed;
-  z-index: 99999;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #CEAD78 url(../Preloader/svg.svg) center center no-repeat; 
-  background-size:132px;
+header {
+  margin-bottom: 100px;
 }
 
-@media only screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1200px) {
     .container {
-        max-width: 70% !important;
+        max-width: 70%;
     }
 }
